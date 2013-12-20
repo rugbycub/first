@@ -6,3 +6,5 @@ if userInput % 2 == 0
 else
 	puts "the number is odd"
 end
+
+#this is a comment
