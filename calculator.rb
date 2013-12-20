@@ -6,8 +6,6 @@ secondNum = gets.chomp.to_i
 
 =begin
 	
-rescue Exception => e
-	
 end
 if operator == "-"
 	result = firstNum - secondNum
@@ -24,3 +22,5 @@ adjustedSecondNum = "#{operator}#{secondNum}".to_i
 result = firstNum + adjustedSecondNum
 
 puts "result: #{result}"
+
+# another way using another send
